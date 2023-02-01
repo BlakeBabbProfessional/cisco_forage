@@ -9,10 +9,6 @@ function App() {
 	);
 }
 
-function Banner() {
-	return <h1>Cisco Sextant</h1>;
-}
-
 function Exhibit({values}) {
 	return (
 		<>
@@ -20,6 +16,10 @@ function Exhibit({values}) {
 			<p>{values}</p>
 		</>
 	);
+}
+
+function Banner() {
+	return <h1>Cisco Sextant</h1>;
 }
 
 export default App;
